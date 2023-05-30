@@ -1,6 +1,6 @@
-S=int(input("Введите сумму чисел "))
-P=int(input("Введите Произведение чисел "))
-
-b = (S + ((-S) ** 2 - 4 * P) ** 0.5) / 2
-a = (S - ((-S) ** 2 - 4 * P) ** 0.5) / 2
-print(a, b)
+x = int(input())
+y = int(input())
+for i in range(x):
+    for j in range(y):
+        if x == i + j and y == i * j:
+            print(i, j)
