@@ -11,6 +11,6 @@ for j in range(n2):
     array2.append(int(input('Введите элемент второго массива: ')))
 
 for i in array1:
-    if i in array2: #and i not in array3:
+    if i in array2:
             array3.append(i)
 print(array3)
